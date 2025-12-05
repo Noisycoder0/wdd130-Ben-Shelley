@@ -1,0 +1,52 @@
+.about-layout {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem 4rem;
+    font-family: sans-serif;
+}
+
+.about-card {
+    width: 260px;
+    height: 340px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto auto auto;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+    align-items: center;
+}
+
+.food-card {
+    width: 200px;
+    height: 140px;
+    background: #ddd;
+}
+
+.top-left {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.food-note {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.bottom-left {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.right-center {
+    grid-column: 2;
+    grid-row: 2;
+}
