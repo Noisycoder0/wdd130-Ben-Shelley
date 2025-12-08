@@ -16,13 +16,13 @@ body {
 
 header {
     width: 100%;
-    height: 21.6292134831461vh;
+    height: 210px;
     background-color: var(--main-color);
     color: var(--font-color);
 }
 
 header img {
-    width: 16%;
+    width: 180px;
     position: relative;
     top: 45%;
     left: 20%;
